@@ -1,7 +1,4 @@
-# Lab 1: Getting Started with Git & GitHub
+The workflow includes managing missing data via median imputation and identifying significant outliers through the Interquartile Range (IQR) method to ensure data integrity.
 
-In this lab, I explored the basics of version control systems. 
-- Created a GitHub account.
-- Learned how to initialize a local repository using Git.
-- Practiced basic Git commands: `add`, `commit`, and `push`.
-- Connected my local environment (VS Code) to a remote repository on GitHub.
+To prepare for modeling, all numerical features were scaled using Z-score standardization, and Principal Component Analysis (PCA) was implemented to reduce dimensionality.
+These steps successfully compressed 12 complex features into two primary components that capture over 95% of the dataset's total variance.
